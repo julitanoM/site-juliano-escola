@@ -1,5 +1,6 @@
+@import url(style/header.css);
 :root{
-    --cor-de-fundo: #d1d1d8;
+    --cor-de-fundo: #0c0cf0;
     
 
 
@@ -8,27 +9,5 @@
 
 body{
     background-color: var(--cor-de-fundo);
-
-}
-h1{
-    background-color: rgb(255, 0, 0);
-}
-.user{
-    width: 140px;
-
-}
-
-.sacola{
-
-    width: 140px;
-}
-.estrela{
-
-    width: 140px;
-
-}
-.logo{
-
-    width: 140px;
 
 }
