@@ -18,12 +18,13 @@
 
 .swiper-pagination{
     position: initial;
-    margin: 0.5em 0;
+    margin: 0.7em 0;
 }
 
 .card__descrição {
  display: flex;
  justify-content: space-between;
+ margin-bottom: 0.8em;
 
 
 }
@@ -46,17 +47,25 @@
 
 .descrição__titulo{
     color: var(--laranja);
-    font-weight: 700;
+    font-weight: 300;
 }
 .descrição__titulo-livro{
  color: var(--azul);
  font-size: 18px;
- font-weight: 700;
+ font-weight: 100;
  margin: 0.5em 0;
 }
 
 .descrição__texto{
-  font-size: 14px;
+  font-size: 12px;
   
-  
+}
+
+.botões__item{
+    margin: 0 0.5em;
+}
+
+.botões__ancora{
+    background-color: var(--laranja);
+    padding: 1em 3.1em;
 }
